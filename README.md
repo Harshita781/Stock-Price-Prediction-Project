@@ -45,6 +45,10 @@ The app utilizes a Random Forest Classifier model trained on historical stock pr
 - **Advanced Settings:** Users can adjust advanced settings such as the start index and step size for the prediction range to customize their analysis.
 - **Visualization:** The app provides interactive plots to visualize the predictions, actual stock values, and other relevant metrics.
 
+![Stock-Price-Prediction](https://github.com/Harshita781/Stock-Price-Prediction-Project/blob/main/Images/2.png)
+![Stock-Price-Prediction](https://github.com/Harshita781/Stock-Price-Prediction-Project/blob/main/Images/3.png)
+![Stock-Price-Prediction](https://github.com/Harshita781/Stock-Price-Prediction-Project/blob/main/Images/4.png)
+![Stock-Price-Prediction](https://github.com/Harshita781/Stock-Price-Prediction-Project/blob/main/Images/5.png)
 
 ## Deployed Website
 
