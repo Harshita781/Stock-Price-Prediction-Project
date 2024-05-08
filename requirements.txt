@@ -1,6 +1,5 @@
-numpy
-pandas
 streamlit
 yfinance
-prophet
-plotly
+pandas
+scikit-learn
+matplotlib
