@@ -1,9 +1,9 @@
 # Stock Price Prediction
-tock Market Analysis and Prediction is the project on technical analysis, visualization, and prediction using data provided by Google Finance. 
+Stock Market Analysis and Prediction is the project on technical analysis, visualization, and prediction using data provided by Google Finance. 
 By looking at data from the stock market, particularly some giant technology stocks and others. Used pandas to get stock information,
 visualized different aspects of it, and finally looked at a few ways of analyzing the risk of a stock, based on its previous performance history. 
 
-
+![Stock-Price-Prediction](https://github.com/Harshita781/Stock-Price-Prediction-Project/blob/main/Images/1.png)
 ### Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
