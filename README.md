@@ -34,7 +34,10 @@ $ pip install tensorflow-gpu # GPU - Requires CUDA, CuDNN
 ```
 
 ### Usage
-#### 1. Prediction
+## Prediction Model
+
+The app utilizes a Random Forest Classifier model trained on historical stock price data obtained from Yahoo Finance (via the `yfinance` library). The model predicts whether the stock price will increase or decrease based on features such as closing price, high, low, open, and volume.
+
 ##### a. Loading
 Create a share object.
 ```python
@@ -73,18 +76,17 @@ Split your data set into training and testing sets.
 ...
 ```
 
-##### d. Testing
-```python
->>> from sklearn.metrics import mean_squared_error
->>> p = rnn.predict(Xtest)
->>> mean_squared_error(ytest, p)
-0.00042927869370525931
->>> import matplotlib.pyplot as pplt
->>> pplt.plot(ytest)
->>> pplt.plot(p)
->>> pplt.show()
-```
-![](.github/plot.png)
+## Deployed Website
+
+The app is already deployed and accessible online. You can try it out at [Stock Price Prediction App](https://stock-predictorv2.streamlit.app/#stock-predictor).
+
+## Feedback and Contributions
+
+Feedback, bug reports, and contributions are welcome! If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/yourusername/stock-price-prediction-app/issues) or [submit a pull request](https://github.com/yourusername/stock-price-prediction-app/pulls).
+
+## Acknowledgments
+
+This project was inspired by the need for a simple and user-friendly tool to predict stock prices and visualize the results. Special thanks to the Streamlit and Yahoo Finance communities for their contributions and support.
 
 
 
